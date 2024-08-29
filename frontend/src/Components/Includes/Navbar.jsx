@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo2.png";
 import Button from "../UI/Button/Button";
 import { navItems } from "./includes";
 
 const Navbar = () => {
   return (
-    <nav className="h-1/6 w-full flex">
-      <div className="h-full w-1/6 flex items-center justify-center">
+    <nav className="h-16 w-full flex">
+      <div className="h-full w-1/6 flex items-center justify-start">
         <img src={logo} alt="logo" className="h-full" />
       </div>
       <div className="h-full w-4/6 flex items-center justify-center">
